@@ -1,0 +1,74 @@
+@font-face{
+    font-family: Moonlight;
+    src: url("../font/Moonlight.ttf");
+}
+
+body{
+    background-color: #ffffff;
+}
+
+#content{
+    width: 600px;
+    height: 800px;
+    margin: auto;
+}
+
+#game{
+    position: relative;
+    display: flex;
+    height: 800px;
+}
+
+#background{
+    background-image: url('../source/board.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+canvas{
+    position: absolute;
+}
+
+p{
+    margin-left: 40px;
+}
+
+#scoreboard{
+    position: absolute;
+    font-family: Moonlight, sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+#bestboard{
+    position: absolute;
+    font-family: Moonlight, sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+button{
+    font-family: Moonlight, sans-serif;
+    color: #22bb22;
+    font-size: 40px;
+}
+
+#restart{
+    visibility: visible;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    width: 200px;
+    height: 60px;
+}
+
+#main{
+    position: absolute;
+}
+
+#start{
+    position: absolute;
+    width: 600px;
+    height: 800px;
+
+}
